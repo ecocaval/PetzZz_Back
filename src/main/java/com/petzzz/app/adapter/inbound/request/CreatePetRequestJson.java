@@ -13,7 +13,6 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @Builder
 public class CreatePetRequestJson {
-
     @NotNull
     private String name;
     @NotNull
